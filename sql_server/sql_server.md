@@ -80,3 +80,11 @@ UPDATE table_name
 SET column1 = value1, column2 = value2, column2 = (column3 + x)...
 WHERE condition;
 ```
+
+## ALWAYS TRUE CONDITIONS
+
+```sql
+WHERE TRUE
+WHERE 1
+WHERE NULL IS NULL
+```
