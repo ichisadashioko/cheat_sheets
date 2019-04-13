@@ -2,6 +2,6 @@
 
 ## Get current timestamp
 
-    ```javascript
-    Date.now()
-    ```
+```javascript
+Date.now()
+```
