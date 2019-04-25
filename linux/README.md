@@ -25,3 +25,9 @@
     ```bash
     wc -l [file-path]
     ```
+
+- List all files in folder with its absolute path name:
+
+	```bash
+	find $(pwd) -type f
+	```
