@@ -10,6 +10,7 @@
 - :f[ind] {file}
 - goto file: gf
 - Alternate buffer Ctrl-^
+- Enter insert mode at the begining/end of line: `I`/`A`
 
 ## SEARCHING:
 
