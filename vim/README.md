@@ -36,6 +36,8 @@
 - Ctrl-O / Ctrl-I to cycle through jumplist
 - g; / g, to cycle through changes
 
+_search tag_: nagivation, go back, location
+
 ## Miscellaneous
 
 - Insert a line below/above and enter `INSERT` mode: `o`/`O`
