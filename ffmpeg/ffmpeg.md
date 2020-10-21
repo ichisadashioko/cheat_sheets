@@ -35,3 +35,9 @@
 - `-vcodec copy` : copy video codec
 - `-acodec copy` : copy audio codec
 - `-vn` : no video
+
+## create a video from an audio file and an image file
+
+```sh
+ffmpeg -loop 1 -i image.png -i audio.mp3 [-shortest] -acodec copy video.mkv
+```
