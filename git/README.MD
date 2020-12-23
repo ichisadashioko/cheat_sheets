@@ -31,3 +31,25 @@ git tag -l
 ```sh
 git checkout tags/<tag_name> -b <branch_name>
 ```
+
+## Signing commits
+
+Config `git` to sign every commits without adding the `-S` option.
+
+```sh
+git config --global commit.gpgSign true
+```
+
+Tell `git` about the key that we want to use to sign commits.
+
+```sh
+git config --global user.signingKey <key>
+```
+
+## Prevent "destructive" pull
+
+When you have changes in both remote and local, `git pull` will attempt to merge them. As we have already known, resolving conflicts is the least thing I want `git` to handle automatically.
+
+```sh
+git config --global pull.ff only
+```
