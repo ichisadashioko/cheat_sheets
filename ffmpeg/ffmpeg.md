@@ -16,6 +16,8 @@
 
 - Without re-encoding: `ffmpeg -i [input-file] -ss [x] -vcodec copy -acodec copy [output-file]`
 
+timestamp format `hh:mm:ss.00`
+
 ### Cut from `start` to `end`
 
 - `ffmpeg -i [input-file] -ss [start] -to [end] [output]`
