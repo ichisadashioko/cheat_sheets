@@ -31,3 +31,7 @@
 	```bash
 	find $(pwd) -type f
 	```
+
+- Finding files
+
+  - by file name: `find . -name filename.ext`
